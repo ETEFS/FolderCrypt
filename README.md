@@ -6,3 +6,9 @@ FolderCrypt is a folder encryption SDK for software developer. It is based on th
 # Product Benefits
 ## Easy to use
 The API set of FolderCrypt is comprised of several functions programming in “C” language exported by a DLL library. By using these functions, it’s very easy to build a basic transparent file encryption system. These API functions can also be called from other programming language, like “C#” and “VB”.
+
+# Connect
+For more information, please visit
+http://www.etefs.com 
+For business cooperation or more product detail ,please contact
+**etefs@etefs.com**
