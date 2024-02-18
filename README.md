@@ -9,6 +9,7 @@ The API set of FolderCrypt is comprised of several functions programming in “C
 
 # Main UI
 <img src="https://etefs.com/foldercrypt.png">    
+
 # Connect
 For more information, please visit    
 http://www.etefs.com    
