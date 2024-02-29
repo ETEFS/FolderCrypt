@@ -9,6 +9,10 @@ The API set of FolderCrypt is comprised of several functions programming in “C
 ## Cut down the development cycle
 Developing a driver is difficult. Developing a file system driver is even more difficult. If you want to create an engine from scratch, this may take a long development cycle and cause the loss of marketing.
 
+# Product Features 
+## Implementing in kernel mode
+The core module of FolderCrypt is implemented in kernel mode. The minfilter framework is highly recommended by Microsoft. It is very convenient to intercept the file I/O requests and insert encryption module on file system stack.   
+
 # Main UI
 <img src="https://etefs.com/foldercrypt.png">    
 
