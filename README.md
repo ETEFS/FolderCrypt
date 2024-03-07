@@ -8,20 +8,15 @@ FolderCrypt is a folder encryption SDK for software developer. It is based on th
 The API set of FolderCrypt is comprised of several functions programming in “C” language exported by a DLL library. By using these functions, it’s very easy to build a basic transparent file encryption system. These API functions can also be called from other programming language, like “C#” and “VB”.  
 ## Cut down the development cycle
 Developing a driver is difficult. Developing a file system driver is even more difficult. If you want to create an engine from scratch, this may take a long development cycle and cause the loss of marketing.
-
 # Product Features 
 ## Implementing in kernel mode
-The core module of FolderCrypt is implemented in kernel mode. The minfilter framework is highly recommended by Microsoft. It is very convenient to intercept the file I/O requests and insert encryption module on file system stack. 
-
+The core module of FolderCrypt is implemented in kernel mode. The minfilter framework is highly recommended by Microsoft. It is very convenient to intercept the file I/O requests and insert encryption module on file system stack.
 ## File access control
 FolderCrypt_Mini supports set filter like "user", "process" to permit access to an encrypted resource.
-
 ## Event Monitor
-FolderCrypt supports to capture the critical operation on the target files, such as access, delete, modify etc. The event fields contains user name, process name, user logon domain name, user logon server name. 
-
+FolderCrypt supports to capture the critical operation on the target files, such as access, delete, modify etc. The event fields contains user name, process name, user logon domain name, user logon server name.
 ## Application support
 FolderCrypt supports any type of files, such as EXE, DLL, SYS files.
-
 # Main UI
 <img src="https://etefs.com/foldercrypt.png">    
 
