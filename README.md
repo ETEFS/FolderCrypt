@@ -11,7 +11,16 @@ Developing a driver is difficult. Developing a file system driver is even more d
 
 # Product Features 
 ## Implementing in kernel mode
-The core module of FolderCrypt is implemented in kernel mode. The minfilter framework is highly recommended by Microsoft. It is very convenient to intercept the file I/O requests and insert encryption module on file system stack.   
+The core module of FolderCrypt is implemented in kernel mode. The minfilter framework is highly recommended by Microsoft. It is very convenient to intercept the file I/O requests and insert encryption module on file system stack. 
+
+## File access control
+FolderCrypt_Mini supports set filter like "user", "process" to permit access to an encrypted resource.
+
+## Event Monitor
+FolderCrypt supports to capture the critical operation on the target files, such as access, delete, modify etc. The event fields contains user name, process name, user logon domain name, user logon server name. 
+
+## Application support
+FolderCrypt supports any type of files, such as EXE, DLL, SYS files.
 
 # Main UI
 <img src="https://etefs.com/foldercrypt.png">    
