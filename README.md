@@ -17,7 +17,7 @@ FolderCrypt_Mini supports set filter like "user", "process" to permit access to 
 FolderCrypt supports to capture the critical operation on the target files, such as access, delete, modify etc. The event fields contains user name, process name, user logon domain name, user logon server name.
 ## Application support
 FolderCrypt supports any type of files, such as EXE, DLL, SYS files.
-## File system support
+# File system support
 FolderCrypt supports any type of file system only if the file system is available in windows. The supported file system list includes fastfat, ntfs, network file system, cdfs and udfs. FolderCrypt is compatible with the encryption and compression feature in ntfs.
 # Main UI
 <img src="https://etefs.com/foldercrypt.png">
