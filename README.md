@@ -19,6 +19,8 @@ FolderCrypt supports to capture the critical operation on the target files, such
 FolderCrypt supports any type of files, such as EXE, DLL, SYS files.
 ### File system support
 FolderCrypt supports any type of file system only if the file system is available in windows. The supported file system list includes fastfat, ntfs, network file system, cdfs and udfs. FolderCrypt is compatible with the encryption and compression feature in ntfs.
+### Network share support
+FolderCrypt can be deployed either on a network share server or client side. While running on a share server, it support to set a filter to block access right for a specified "group" or "user.
 # Main UI
 <img src="https://etefs.com/foldercrypt.png">
 
